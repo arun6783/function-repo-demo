@@ -1,0 +1,19 @@
+{
+  "disabled": false,
+  "entryPoint": "default",
+  "scriptFile": "../build/HttpTrigger1/bundle.js",
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": ["get", "post"]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ]
+}

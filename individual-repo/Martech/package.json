@@ -1,0 +1,12 @@
+{
+  "name": "mono-repo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

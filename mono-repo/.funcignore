@@ -1,0 +1,12 @@
+*.js.map
+*.ts
+.git*
+.vscode
+local.settings.json
+test
+tsconfig.json
+buildAnddeploy.ps1
+babel.config.js
+webpack.config.js
+package-lock.json
+.gitignore
