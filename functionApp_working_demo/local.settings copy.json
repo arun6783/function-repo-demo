@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "Config_URL": "Endpoint=https://azfn-config.azconfig.io;Id=p+ku-l9-s0:B0GU7sJhEnF/I+L1ClgJ;Secret=sdv6q1Vz1ONKNPuxLGWX/SPP0Xg+7mm/vRNHfa+GYls=",
+    "KeyVault_URL": "https://azfunctionkeyvaultdemo.vault.azure.net/",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "timerTriggerstate": "UseDevelopmentStorage=true",
+    "function-queue": "UseDevelopmentStorage=true",
+    "azfunclocallystorageacc_STORAGE": "DefaultEndpointsProtocol=https;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1",
+    "AzureWebJobs.TimerTrigger1.Disabled": true,
+    "azfnsbdemo_SERVICEBUS": "Endpoint=sb://azfn-sb-demo.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=wgKBRBIMhu47PyDeXfJIT+Tt9nk9GMbHmD9109TdkHA="    
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 * * * * *"
+    },
+    {
+      "type": "blob",
+      "name": "myInputBlob",
+      "path": "timerstatecontainer/state.json",
+      "connection": "",
+      "direction": "in"
+    }
+    ,
+    {
+      "name": "myOutputBlob",
+      "type": "blob",
+      "path": "timerstatecontainer/state.json",
+      "connection": "",
+      "direction": "out"
+    }
+  ]
+}

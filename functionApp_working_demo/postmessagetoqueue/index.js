@@ -1,6 +1,5 @@
 const { QueueClient } = require("@azure/storage-queue");
-const { DefaultAzureCredential } = require('@azure/identity');
-const { v1: uuidv1 } = require("uuid");
+
 
 async function main() {
 

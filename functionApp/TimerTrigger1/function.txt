@@ -1,0 +1,25 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 * * * * *"
+        },
+    {
+      "type": "blob",
+      "name": "myInputBlob",
+      "path": "timertriggerstate/state.json",
+      "connection": "azfunclocallystorageacc_STORAGE",
+      "direction": "in"
+    }
+    ,
+    {
+      "name": "myOutputBlob",
+      "type": "blob",
+      "path": "timertriggerstate/state.json",
+      "connection": "azfunclocallystorageacc_STORAGE",
+      "direction": "out"
+    }
+  ]
+}

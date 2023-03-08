@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "winston": "^3.8.2"
+    "winston": "^3.8.2",
+    "winston-azure-functions": "^0.0.3"
   }
 }
