@@ -1,18 +1,6 @@
-import { createLogger } from "../utils/logger.js";
+module.exports = async function (context, req) {
+    context.log('JavaScript HTTP trigger function processed a request.');
 
-export default async function (context, req) {
-    const logger = createLogger(context, process.env.LOG_LEVEL||'debug', 'HTTPTRIGGER1')
-    logger.info('JavaScript HTTP trigger1 info');
-    logger.warn('JavaScript HTTP trigger1 warn');
-    logger.debug('JavaScript HTTP trigger1 warn');
-    logger.error('JavaScript HTTP trigger1 warn');
-
-
-    // context.log.error('JavaScriptContext HTTP trigger1 error')
-    // context.log.warn('JavaScriptContext HTTP trigger1 warn')
-    // context.log.info('JavaScriptContext HTTP trigger1 info')
-    // context.log.verbose('JavaScriptContext HTTP trigger1 verbose')	
-    
     const name = (req.query.name || (req.body && req.body.name));
     const responseMessage = name
         ? "Hello, " + name + ". This HTTP triggered function executed successfully."

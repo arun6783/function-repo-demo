@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "mobilepurchasehistorydataload/{name}.zip",
+      "connection": "arunmar2023storageacc_STORAGE"
+    }
+  ]
+}

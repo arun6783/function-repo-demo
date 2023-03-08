@@ -1,2 +1,2 @@
 npm prune --production
- func azure functionapp publish "http-trigger-demo"
+ func azure functionapp publish "arunmar2023fa"
